@@ -22,6 +22,34 @@ h1 {
     display: inline-block;
 }
 
+#container {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+
+#task {
+    background-color: #47aceb;
+    border-color: #47aceb;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+#selection {
+    background-color: #47aceb;
+    border-color: #47aceb;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
 .titolo {
     font-size: 24px;
     position: relative;
@@ -33,4 +61,8 @@ h1 {
     font-size: 20px;
     margin-left: 10px;
     vertical-align: middle;
+}
+
+.text {
+    margin-bottom: 20px;
 }
