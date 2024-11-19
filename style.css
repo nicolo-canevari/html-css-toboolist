@@ -1,0 +1,36 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8fa;
+}
+
+figure {
+    background-color: white;
+}
+
+img {
+    line-height: 100%;
+    vertical-align: middle;
+    margin: 10px auto;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.titolo {
+    font-size: 24px;
+    position: relative;
+    display: inline-block;
+}
+
+.titolo::before {
+    content: '\2193';
+    font-size: 20px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
