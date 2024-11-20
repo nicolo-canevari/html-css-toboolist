@@ -1,10 +1,10 @@
-/* Logo e titolo */
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
+/* Logo e titolo */
 body {
     background-color: #f6f8fa;
 }
@@ -64,7 +64,7 @@ h1 {
     border: 1px solid grey;
 }
 
-/* titoli */
+/* titoli e font freccia */
 .titolo {
     font-size: 24px;
     display: inline-block;
@@ -82,11 +82,11 @@ h1 {
 
 /* testo container */
 .text {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: large;
 }
 
-/* layout font */
+/* layout font check e xmark*/
 i {
     margin-right: 5px;
 }
@@ -131,6 +131,15 @@ p {
     font-size: small;
 }
 
+.arancione {
+    background-color: orange;
+    border-color: orange;
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: small;
+}
+
 .rosa {
     background-color: #dc649e;
     border-color: #dc649e;
@@ -148,3 +157,32 @@ p {
     border-radius: 10px;
     font-size: small;
 }
+
+
+/* 
+#div_check {
+    display: flex;
+}
+
+#font {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+    padding-left: 4px;
+    padding-bottom: 2px;
+    margin-right: 5px;
+    border-radius: 50%;
+
+}
+
+.blu2 {
+    background-color: #47aceb;
+    border-color: #47aceb;
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: small;
+}
+    */
